@@ -137,6 +137,11 @@
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
+        <DCCReference Include="Classes\uBibliotecas.pas"/>
+        <DCCReference Include="Forms\uFormConfigBanco.pas">
+            <Form>FormConfigBanco</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -163,7 +168,7 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="4">
-                <DeployFile LocalName="Win32\Debug\prjCursoBasico.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Exe\prjCursoBasico.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>prjCursoBasico.exe</RemoteName>
                         <Overwrite>true</Overwrite>

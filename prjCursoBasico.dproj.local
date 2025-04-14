@@ -3,11 +3,16 @@
   <Transactions>
     <Transaction>2025/04/12 20:49:23.782,=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/04/12 20:49:52.885,=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2025/04/12 20:50:25.203,C:\ProjetoCursoDelphi\Forms\uFormName.pas=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2025/04/12 20:50:25.203,C:\ProjetoCursoDelphi\Forms\uFormName.dfm=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2025/04/12 20:50:25.203,C:\ProjetoCursoDelphi\Forms\uFormName.pas=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2025/04/12 20:51:09.273,C:\ProjetoCursoDelphi\prjCursoBasico.dproj=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
     <Transaction>2025/04/12 21:10:35.104,=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
     <Transaction>2025/04/12 21:12:16.685,C:\ProjetoCursoDelphi\uDmDados.pas=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
     <Transaction>2025/04/12 21:12:16.685,C:\ProjetoCursoDelphi\uDmDados.dfm=C:\ProjetoCursoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/04/12 21:18:56.785,=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/04/12 21:19:48.217,C:\ProjetoCursoDelphi\Classes\uBibliotecas.pas=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/04/12 22:18:12.495,=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/04/12 22:27:42.168,C:\ProjetoCursoDelphi\Forms\uFormConfigBanco.dfm=C:\ProjetoCursoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/04/12 22:27:42.168,C:\ProjetoCursoDelphi\Forms\uFormConfigBanco.pas=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

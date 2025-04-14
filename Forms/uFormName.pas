@@ -12,7 +12,6 @@ uses
 
 type
   TFormMain = class(TForm)
-    Button1: TButton;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }

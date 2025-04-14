@@ -1,4 +1,4 @@
-object FormConfigbanco: TFormConfigbanco
+object FormConfigBanco: TFormConfigBanco
   Left = 0
   Top = 0
   BorderStyle = bsDialog
@@ -882,7 +882,6 @@ object FormConfigbanco: TFormConfigbanco
     Width = 257
     Height = 23
     TabOrder = 0
-    OnChange = editLocalChange
   end
   object Button1: TButton
     Left = 550
@@ -891,6 +890,7 @@ object FormConfigbanco: TFormConfigbanco
     Height = 25
     Caption = 'Configurar'
     TabOrder = 1
+    OnClick = Button1Click
   end
   object opnPastas: TOpenDialog
     DefaultExt = 'fdb'

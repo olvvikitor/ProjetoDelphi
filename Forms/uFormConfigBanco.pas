@@ -1,4 +1,4 @@
-unit uFormConfigBanco;
+Ôªøunit uFormConfigBanco;
 
 interface
 
@@ -8,13 +8,13 @@ uses
   Vcl.ExtCtrls, uBibliotecas;
 
 type
-  TFormConfigbanco = class(TForm)
+  TFormConfigBanco = class(TForm)
     Image1: TImage;
     editLocal: TEdit;
     Label1: TLabel;
     Button1: TButton;
     opnPastas: TOpenDialog;
-    procedure editLocalChange(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
   procedure Configura;
 
@@ -24,7 +24,7 @@ type
   end;
 
 var
-  FormConfigbanco: TFormConfigbanco;
+  FormConfigBanco: TFormConfigBanco;
 
 implementation
 
@@ -32,20 +32,20 @@ implementation
 
 { TFormCOnfigbanco }
 
-procedure TFormConfigbanco.Configura;
+procedure TFormConfigBanco.Button1Click(Sender: TObject);
 begin
-      if opnPastas.Execute  then begin
-
-      end;
+Configura;
 end;
 
-procedure TFormConfigbanco.editLocalChange(Sender: TObject);
+procedure TFormConfigBanco.Configura;
 var
   vFileName: string;
 begin
+      if opnPastas.Execute  then begin
          editLocal.Text := opnPastas.FileName;
-         vFileName :=   ExtractFilePath(Application.ExeName + 'config.ini');
-         SetValorIni(vFileName, 'CONIFIGURA«√O', 'LOCAL_DB', editLocal.Text);
+         vFileName :=   ExtractFilePath(Application.ExeName) + 'config.ini';
+         SetValorIni(vFileName, 'CONIFIGURA√á√ÉO', 'LOCAL_DB', editLocal.Text);
+      end;
 end;
 
 end.

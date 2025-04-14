@@ -1,4 +1,5 @@
 object dmDados: TdmDados
+  OnCreate = DataModuleCreate
   Height = 480
   Width = 640
   object fbConn: TFDConnection
@@ -12,6 +13,6 @@ object dmDados: TdmDados
       'DriverID=FB')
     LoginPrompt = False
     Left = 240
-    Top = 288
+    Top = 232
   end
 end

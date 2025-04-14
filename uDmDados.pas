@@ -7,11 +7,12 @@ uses
   FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.FB,
   FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait, Data.DB, FireDAC.Comp.Client,
-  uFormConfigBanco;
+   Vcl.Forms, uFormConfigBanco, uBibliotecas  ;
 
 type
   TdmDados = class(TDataModule)
     fbConn: TFDConnection;
+    procedure DataModuleCreate(Sender: TObject);
   private
     procedure CarregaBanco;
     { Private declarations }
@@ -25,15 +26,25 @@ var
 implementation
 
 {%CLASSGROUP 'Vcl.Controls.TControl'}
+
+
+
+
 {$R *.dfm}
 
 procedure TdmDados.CarregaBanco;
 begin
   try
-    fbConn.Connected := True;
+  fbConn.Params.Database := GetValorIni(ExtractFilePath(Application.ExeName) + 'config.ini', 'CONFIGURACAO', 'LOCAL_DB');
+  fbConn.Connected := True;
   except
-    FormConfigbanco.ShowModal;
+  FormConfigBanco.ShowModal;
   end;
+end;
+
+procedure TdmDados.DataModuleCreate(Sender: TObject);
+begin
+CarregaBanco
 end;
 
 end.

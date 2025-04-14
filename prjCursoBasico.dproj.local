@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2025/04/12 20:49:23.782,=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/12 20:49:52.885,=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/04/12 20:50:25.203,C:\ProjetoCursoDelphi\Forms\uFormName.pas=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/04/12 20:50:25.203,C:\ProjetoCursoDelphi\Forms\uFormName.dfm=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2025/04/12 20:51:09.273,C:\ProjetoCursoDelphi\prjCursoBasico.dproj=C:\Users\Jussara\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2025/04/12 21:10:35.104,=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/04/12 21:12:16.685,C:\ProjetoCursoDelphi\uDmDados.pas=C:\ProjetoCursoDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/04/12 21:12:16.685,C:\ProjetoCursoDelphi\uDmDados.dfm=C:\ProjetoCursoDelphi\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

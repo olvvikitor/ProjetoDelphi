@@ -1,0 +1,26 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'FormPrincipal'
+  ClientHeight = 441
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object fdconn: TFDConnection
+    Params.Strings = (
+      'Database=C:\ProjetoCursoDelphi\DB\DATA.FDB'
+      'User_Name=sysdba'
+      'Password=masterkey'
+      'Port=3050'
+      'Protocol=TCPIP'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 352
+    Top = 184
+  end
+end

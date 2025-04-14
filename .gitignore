@@ -1,0 +1,46 @@
+# Arquivos e pastas temporárias
+*.dcu
+*.dcp
+*.obj
+*.o
+*.il
+*.pch
+*.rsm
+*.dsk
+*.bdsproj.user
+*.gdb
+*.tds
+
+# Arquivos de compilação
+*.exe
+*.dll
+*.res
+*.il
+*.dof
+*.~*   # Arquivos temporários de backups
+
+# Arquivos específicos do RAD Studio
+*.local
+*.dproj
+*.bdsproj
+*.cbi
+*.dproj.user
+*.o.bak
+*.dbg
+*.bak
+*.map
+
+# Pastas de build
+/build/
+/Debug/
+/Release/
+/Bin/
+/Obj/
+/dcu/
+/.ied/
+*.deploy
+
+# Diretórios do Delphi IDE
+.idea/
+/.vscode/
+/*.history

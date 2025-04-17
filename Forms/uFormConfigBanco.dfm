@@ -12,6 +12,7 @@ object FormConfigBanco: TFormConfigBanco
   Font.Name = 'Segoe UI'
   Font.Style = []
   Position = poDesktopCenter
+  OnClose = FormClose
   TextHeight = 15
   object Image1: TImage
     Left = 0
@@ -896,7 +897,7 @@ object FormConfigBanco: TFormConfigBanco
     DefaultExt = 'fdb'
     FileName = 'dados'
     Filter = 'FireBird|*.fdb'
-    Left = 480
-    Top = 32
+    Left = 528
+    Top = 16
   end
 end

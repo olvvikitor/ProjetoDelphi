@@ -21,7 +21,6 @@ implementation
     begin
       vArquivo := TIniFile.Create(pLocal);
       Result := vArquivo.ReadString(pSessao, pSubSessao, '');
-
       vArquivo.Free;
     end;
 

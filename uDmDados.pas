@@ -35,7 +35,8 @@ implementation
 procedure TdmDados.CarregaBanco;
 begin
   try
-  fbConn.Params.Database := GetValorIni(ExtractFilePath(Application.ExeName) + 'config.ini', 'CONFIGURACAO', 'LOCAL_DB');
+  fbConn.Params.Database := GetValorIni(ExtractFilePath(Application.ExeName) +
+   'config.ini', 'CONFIGURACAO', 'LOCAL_DB');
   fbConn.Connected := True;
   except
   FormConfigBanco.ShowModal;

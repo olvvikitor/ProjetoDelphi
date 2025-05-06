@@ -2,10 +2,12 @@ program prjCursoBasico;
 
 uses
   Vcl.Forms,
-  uFormName in 'Forms\uFormName.pas' {FormMain},
+  uFormMain in 'Forms\uFormMain.pas' {FormMain},
   uDmDados in 'uDmDados.pas' {dmDados: TDataModule},
   uBibliotecas in 'Classes\uBibliotecas.pas',
-  uFormConfigBanco in 'Forms\uFormConfigBanco.pas' {FormConfigBanco};
+  uFormConfigBanco in 'Forms\uFormConfigBanco.pas' {FormConfigBanco},
+  uFormCadastroPai in 'Forms\uFormCadastroPai.pas' {FormCadastroPai},
+  uFormCadastroCliente in 'Forms\uFormCadastroCliente.pas' {FormCadastroCliente};
 
 {$R *.res}
 
@@ -15,5 +17,6 @@ begin
   Application.CreateForm(TFormMain, FormMain);
   Application.CreateForm(TFormConfigBanco, FormConfigBanco);
   Application.CreateForm(TdmDados, dmDados);
+  Application.CreateForm(TFormCadastroCliente, FormCadastroCliente);
   Application.Run;
 end.

@@ -128,19 +128,22 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Forms\uFormName.pas">
+        <DCCReference Include="Forms\uFormMain.pas">
             <Form>FormMain</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uDmDados.pas">
             <Form>dmDados</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <DCCReference Include="Classes\uBibliotecas.pas"/>
         <DCCReference Include="Forms\uFormConfigBanco.pas">
             <Form>FormConfigBanco</Form>
-            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Forms\uFormCadastroPai.pas">
+            <Form>FormCadastroPai</Form>
+        </DCCReference>
+        <DCCReference Include="Forms\uFormCadastroCliente.pas">
+            <Form>FormCadastroCliente</Form>
         </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

@@ -1,0 +1,8 @@
+inherited FormCadastroPai1: TFormCadastroPai1
+  Caption = 'FormCadastroPai1'
+  StyleElements = [seFont, seClient, seBorder]
+  TextHeight = 15
+  inherited pnCabecalho: TPanel
+    StyleElements = [seFont, seClient, seBorder]
+  end
+end

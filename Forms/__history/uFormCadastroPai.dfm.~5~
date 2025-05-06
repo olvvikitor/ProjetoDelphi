@@ -1,0 +1,84 @@
+object FormCadastroPai: TFormCadastroPai
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'FormCadastroPai'
+  ClientHeight = 409
+  ClientWidth = 806
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poDesktopCenter
+  TextHeight = 15
+  object pnCabecalho: TPanel
+    Left = 0
+    Top = 0
+    Width = 806
+    Height = 41
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 8
+    object BitBtn1: TBitBtn
+      Left = 8
+      Top = 9
+      Width = 75
+      Height = 25
+      Caption = 'Novo'
+      TabOrder = 0
+      OnClick = BitBtn1Click
+    end
+    object BitBtn2: TBitBtn
+      Left = 112
+      Top = 9
+      Width = 75
+      Height = 25
+      Caption = 'Gravar'
+      TabOrder = 1
+      OnClick = BitBtn2Click
+    end
+    object BitBtn3: TBitBtn
+      Left = 216
+      Top = 9
+      Width = 75
+      Height = 25
+      Caption = 'Cancelar'
+      TabOrder = 2
+      OnClick = BitBtn3Click
+    end
+    object BitBtn4: TBitBtn
+      Left = 320
+      Top = 9
+      Width = 75
+      Height = 25
+      Caption = 'Deletar'
+      TabOrder = 3
+    end
+    object BitBtn5: TBitBtn
+      Left = 715
+      Top = 9
+      Width = 75
+      Height = 25
+      Caption = 'Sair'
+      TabOrder = 4
+    end
+  end
+  object fdQryCadastro: TFDQuery
+    Transaction = fdTransaction
+    UpdateObject = fdUpdCadastro
+    Left = 400
+    Top = 208
+  end
+  object fdUpdCadastro: TFDUpdateSQL
+    Connection = dmDados.fbConn
+    Left = 384
+    Top = 288
+  end
+  object fdTransaction: TFDTransaction
+    Connection = dmDados.fbConn
+    Left = 512
+    Top = 288
+  end
+end
